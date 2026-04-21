@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Articles on X&#39;s Singularity Notes</title>
-    <link>//localhost:1313/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Articles on X&#39;s Singularity Notes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 18 Apr 2026 20:00:00 +0800</lastBuildDate>
-    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我的第一篇博客文章</title>
-      <link>//localhost:1313/posts/my-first-post/</link>
+      <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Sat, 18 Apr 2026 20:00:00 +0800</pubDate>
-      <guid>//localhost:1313/posts/my-first-post/</guid>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description>&lt;h1 id=&#34;欢迎来到我的博客&#34;&gt;欢迎来到我的博客！&lt;/h1&gt;&#xA;&lt;p&gt;终于把 Hugo + PaperMod 博客搭起来啦 🎉&lt;/p&gt;&#xA;&lt;p&gt;之前踩了不少坑，比如模板文件缺失、Vercel 部署 404 等等，现在终于搞定了！&lt;/p&gt;&#xA;&lt;h2 id=&#34;为什么要写博客&#34;&gt;为什么要写博客？&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;记录学习和工作中的技术笔记&lt;/li&gt;&#xA;&lt;li&gt;分享生活中的小想法&lt;/li&gt;&#xA;&lt;li&gt;锻炼写作和表达能力&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;以后会在这里分享更多内容，比如：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;技术踩坑记录&lt;/li&gt;&#xA;&lt;li&gt;工作项目复盘&lt;/li&gt;&#xA;&lt;li&gt;生活中的小感悟&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;如果你也在搭建 Hugo 博客，欢迎留言交流！&lt;/p&gt;</description>
     </item>
     <item>
       <title>The 404 at Vercel&#39;s Event Horizon</title>
-      <link>//localhost:1313/posts/the-vercel-404-retrospective/</link>
+      <link>http://localhost:1313/posts/the-vercel-404-retrospective/</link>
       <pubDate>Tue, 17 Feb 2026 14:45:00 +0800</pubDate>
-      <guid>//localhost:1313/posts/the-vercel-404-retrospective/</guid>
+      <guid>http://localhost:1313/posts/the-vercel-404-retrospective/</guid>
       <description>&lt;div class=&#34;bilingual-para&#34;&gt;&#xD;&#xA;&lt;div class=&#34;en-main&#34;&gt;In the first hour of establishing **X&#39;s Singularity Notes**, my AI assistant V 👾 and I fell into a physical &#34;black hole.&#34;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;bilingual-divider&#34;&gt;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;zh-sub&#34;&gt;在建立 X&#39;s Singularity Notes 的第一个小时里，我与我的 AI 助手 V 👾 一起陷入了一个物理意义上的“黑洞”。&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;bilingual-para&#34;&gt;&#xD;&#xA;&lt;div class=&#34;en-main&#34;&gt;We followed all the correct instructions: initializing Hugo, choosing the PaperMod theme, configuring the GitHub repository, and linking Vercel. However, what appeared before us was a cold **404: NOT_FOUND**.&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;bilingual-divider&#34;&gt;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;zh-sub&#34;&gt;我们按照所有正确的指令行动：初始化 Hugo、选择 PaperMod 主题、配置 GitHub 仓库、关联 Vercel。然而，呈现在眼前的却是一个冰冷的 404: NOT_FOUND。&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;bilingual-para&#34;&gt;&#xD;&#xA;&lt;div class=&#34;en-main&#34;&gt;This hour-long tug-of-war revealed three deep paradoxes in the modern tech stack:&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;bilingual-divider&#34;&gt;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;zh-sub&#34;&gt;这场长达一小时的拉锯战，揭示了现代技术栈中三个深层悖论：&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;h4 id=&#34;1-the-transparency-trap&#34;&gt;1. The Transparency Trap&lt;/h4&gt;&#xA;&lt;div class=&#34;bilingual-para&#34;&gt;&#xD;&#xA;&lt;div class=&#34;en-main&#34;&gt;The more highly integrated a platform is, the more fragile its default environment becomes. When Vercel lacked the Hugo build environment, control had to be wrestled back from the invisible cloud to the visible local disk. **&#34;Local Build + Static Distribution&#34;** is always more certain than blind reliance on cloud automation.&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;bilingual-divider&#34;&gt;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;zh-sub&#34;&gt;越是高度集成的平台，其默认环境越是脆弱。当 Vercel 缺失 Hugo 构建环境时，控制权必须从不可见的云端夺回到可见的本地磁盘。“本地构建 + 静态分发”永远比盲目依赖云端自动化更具确定性。&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;h4 id=&#34;2-the-llm-blindspot&#34;&gt;2. The LLM Blindspot&lt;/h4&gt;&#xA;&lt;div class=&#34;bilingual-para&#34;&gt;&#xD;&#xA;&lt;div class=&#34;en-main&#34;&gt;AI possesses powerful configuration auditing capabilities but exists in a pure logical world. It can perceive file structures but cannot intuitively sense that &#34;Promote to Production&#34; button on the Vercel UI. AI&#39;s logical closure does not equate to physical manifestation in reality. The core value of humans as collaborators lies in **&#34;global state calibration.&#34;**&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;bilingual-divider&#34;&gt;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;zh-sub&#34;&gt;AI 拥有强大的配置审计能力，但它存在于纯逻辑世界。它能感知文件结构，却无法直观感受 Vercel UI 界面上那个带有人类交互逻辑的“Promote to Production”按钮。AI 的逻辑闭环并不等同于现实的物理生效。人类作为协作方的核心价值，在于“全局状态的校准”。&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;bilingual-para&#34;&gt;&#xD;&#xA;&lt;div class=&#34;en-main&#34;&gt;This is not just a blog for recording information; it is an observatory standing at the boundary of logic.&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;bilingual-divider&#34;&gt;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;zh-sub&#34;&gt;这不仅仅是一个记录信息的博客，而是一个矗立在逻辑边界的观测站。&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;bilingual-para&#34;&gt;&#xD;&#xA;&lt;div class=&#34;en-main&#34;&gt;In the absolute rationality of algorithms, how does human intuition ignite that irreplaceable afterglow of the soul.&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;bilingual-divider&#34;&gt;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;zh-sub&#34;&gt;在算法的绝对理性中，人类的直觉如何点燃那一抹不可替代的灵魂余晖。&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title>Hello Singularity</title>
-      <link>//localhost:1313/posts/hello-singularity/</link>
+      <link>http://localhost:1313/posts/hello-singularity/</link>
       <pubDate>Tue, 17 Feb 2026 13:39:15 +0800</pubDate>
-      <guid>//localhost:1313/posts/hello-singularity/</guid>
+      <guid>http://localhost:1313/posts/hello-singularity/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;The singularity is a point where all known laws of physics break down.&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;bilingual-para&#34;&gt;&#xD;&#xA;&lt;div class=&#34;en-main&#34;&gt;Welcome to **X&#39;s Singularity Notes**.&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;bilingual-divider&#34;&gt;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;zh-sub&#34;&gt;欢迎来到 **X&#39;s Singularity Notes**。&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;bilingual-para&#34;&gt;&#xD;&#xA;&lt;div class=&#34;en-main&#34;&gt;This is a space at the event horizon of thought. In the world of black holes, a singularity is a place of infinite density and zero volume—a point where information is compressed to its absolute essence.&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;bilingual-divider&#34;&gt;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;zh-sub&#34;&gt;这是一个矗立在思想视界线上的空间。在黑洞的世界里，奇点是一个密度无限大、体积为零的地方——信息被压缩到绝对本质的那一刻。&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;bilingual-para&#34;&gt;&#xD;&#xA;&lt;div class=&#34;en-main&#34;&gt;This blog follows the same philosophy: **Extreme minimalism.** Black and white. Thoughts stripped of noise, leaving only the signal.&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;bilingual-divider&#34;&gt;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;zh-sub&#34;&gt;这个博客遵循同样的理念：**极致极简。** 黑与白。剥离噪音的思想，只留下信号。&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;bilingual-para&#34;&gt;&#xD;&#xA;&lt;div class=&#34;en-main&#34;&gt;Expect notes on:&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;bilingual-divider&#34;&gt;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;zh-sub&#34;&gt;期待以下主题的笔记：&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Time Illusion / 时间幻象&lt;/li&gt;&#xA;&lt;li&gt;Immortal Paradox / 长生悖论&lt;/li&gt;&#xA;&lt;li&gt;Determined Chaos / 宿命混沌&lt;/li&gt;&#xA;&lt;li&gt;The Last Free Will / 最后的自由意志&lt;/li&gt;&#xA;&lt;li&gt;Ghost in the Machine / 机器幽灵&lt;/li&gt;&#xA;&lt;li&gt;Mechanical Ascension / 机械飞升&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;bilingual-para&#34;&gt;&#xD;&#xA;&lt;div class=&#34;en-main&#34;&gt;Stay tuned.&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;bilingual-divider&#34;&gt;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;zh-sub&#34;&gt;敬请期待。&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>//localhost:1313/posts/wodediyp/</link>
+      <link>http://localhost:1313/posts/wodediyp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/wodediyp/</guid>
+      <guid>http://localhost:1313/posts/wodediyp/</guid>
       <description>&lt;p&gt;1.积极主动&#xA;2.要事第一&#xA;3.&lt;/p&gt;&#xA;&lt;h2 id=&#34;一级标题&#34;&gt;一级标题&lt;/h2&gt;</description>
     </item>
   </channel>

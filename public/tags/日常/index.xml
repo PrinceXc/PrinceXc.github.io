@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>日常 on X&#39;s Singularity Notes</title>
-    <link>//localhost:1313/tags/%E6%97%A5%E5%B8%B8/</link>
+    <link>http://localhost:1313/tags/%E6%97%A5%E5%B8%B8/</link>
     <description>Recent content in 日常 on X&#39;s Singularity Notes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 18 Apr 2026 20:00:00 +0800</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/%E6%97%A5%E5%B8%B8/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E6%97%A5%E5%B8%B8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我的第一篇博客文章</title>
-      <link>//localhost:1313/posts/my-first-post/</link>
+      <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Sat, 18 Apr 2026 20:00:00 +0800</pubDate>
-      <guid>//localhost:1313/posts/my-first-post/</guid>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description>&lt;h1 id=&#34;欢迎来到我的博客&#34;&gt;欢迎来到我的博客！&lt;/h1&gt;&#xA;&lt;p&gt;终于把 Hugo + PaperMod 博客搭起来啦 🎉&lt;/p&gt;&#xA;&lt;p&gt;之前踩了不少坑，比如模板文件缺失、Vercel 部署 404 等等，现在终于搞定了！&lt;/p&gt;&#xA;&lt;h2 id=&#34;为什么要写博客&#34;&gt;为什么要写博客？&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;记录学习和工作中的技术笔记&lt;/li&gt;&#xA;&lt;li&gt;分享生活中的小想法&lt;/li&gt;&#xA;&lt;li&gt;锻炼写作和表达能力&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;以后会在这里分享更多内容，比如：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;技术踩坑记录&lt;/li&gt;&#xA;&lt;li&gt;工作项目复盘&lt;/li&gt;&#xA;&lt;li&gt;生活中的小感悟&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;如果你也在搭建 Hugo 博客，欢迎留言交流！&lt;/p&gt;</description>
     </item>
   </channel>
