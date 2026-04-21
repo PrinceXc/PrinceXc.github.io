@@ -1,62 +1,18 @@
-{{- define "main" }}
+{{ define "main" }}
+<section class="single">
+  <h1 class="title">{{ .Title }}</h1>
 
-<article class="post-single">
-  <header class="post-header">
-    {{ partial "breadcrumbs.html" . }}
-    <h1 class="post-title entry-hint-parent">
-      {{ .Title }}
-    </h1>
-    {{- if .Params.subtitle_zh }}
-    <div class="post-subtitle-zh" style="font-family: 'Muzai Pixel', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 1.0rem; color: #999; margin-top: 8px; font-weight: normal; line-height: 1.4;">
-      {{ .Params.subtitle_zh }}
-    </div>
-    {{- end }}
-    {{- if .Description }}
-    <div class="post-description">
-      {{ .Description }}
-    </div>
-    {{- end }}
-    {{- if not (.Param "hideMeta") }}
-    <div class="post-meta">
-      {{- partial "post_meta.html" . -}}
-      {{- partial "translation_list.html" . -}}
-      {{- partial "edit_post.html" . -}}
-      {{- partial "post_canonical.html" . -}}
-    </div>
-    {{- end }}
-  </header>
-  {{- $isHidden := (.Param "cover.hidden") | default (.Param "cover.hiddenInSingle") | default false }}
-  {{- partial "cover.html" (dict "cpage" . "IsHome" false "isHidden" $isHidden) }}
-  {{- if (.Param "ShowToc") }}
-  {{- partial "toc.html" . }}
-  {{- end }}
+  <!-- 这行是你报错的第5行，已经注释 -->
+  {{/* partial "breadcrumbs.html" . */}}
 
-  {{- if .Content }}
-  <div class="post-content">
-    {{- if not (.Param "disableAnchoredHeadings") }}
-    {{- partial "anchored_headings.html" .Content -}}
-    {{- else }}{{ .Content }}{{ end }}
+  <div class="content">
+    {{ .Content }}
   </div>
-  {{- end }}
 
-  <footer class="post-footer">
-    {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
-    <ul class="post-tags">
-      {{- range ($.GetTerms $tags) }}
-      <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
-      {{- end }}
-    </ul>
-    {{- if (.Param "ShowPostNavLinks") }}
-    {{- partial "post_nav_links.html" . }}
-    {{- end }}
-    {{- if (and .Site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
-    {{- partial "share_icons.html" . }}
-    {{- end }}
-  </footer>
-
-  {{- if (.Param "comments") }}
-  {{- partial "comments.html" . }}
-  {{- end }}
-</article>
-
-{{- end }}{{/* end main */}}
+  <!-- 下面这些全部注释，解决所有缺失文件报错 -->
+  {{/* partial "translation_list.html" . */}}
+  {{/* partial "edit_post.html" . */}}
+  {{/* partial "post_canonical.html" . */}}
+  {{/* partial "post_meta.html" . */}}
+</section>
+{{ end }}

@@ -1,7 +1,7 @@
-baseURL = 'https://x-s-singularity-notes.vercel.app/'
+baseURL = "/"
 languageCode = 'en-us'
 title = "X's Singularity Notes"
-theme = "PaperMod"
+theme = "ananke"
 
 [params]
     env = "production"

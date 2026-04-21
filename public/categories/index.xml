@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on X&#39;s Singularity Notes</title>
+    <link>//localhost:1313/categories/</link>
+    <description>Recent content in Categories on X&#39;s Singularity Notes</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Apr 2026 20:00:00 +0800</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>随笔</title>
+      <link>//localhost:1313/categories/%E9%9A%8F%E7%AC%94/</link>
+      <pubDate>Sat, 18 Apr 2026 20:00:00 +0800</pubDate>
+      <guid>//localhost:1313/categories/%E9%9A%8F%E7%AC%94/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
