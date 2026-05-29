@@ -2,65 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>//localhost:1313/posts/</loc>
     <lastmod>2026-04-18T20:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
     <lastmod>2026-04-18T20:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
     <lastmod>2026-04-18T20:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/my-first-post/</loc>
+    <loc>//localhost:1313/posts/my-first-post/</loc>
     <lastmod>2026-04-18T20:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%8A%80%E6%9C%AF/</loc>
+    <loc>//localhost:1313/tags/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2026-04-18T20:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%97%A5%E5%B8%B8/</loc>
+    <loc>//localhost:1313/tags/%E6%97%A5%E5%B8%B8/</loc>
     <lastmod>2026-04-18T20:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E9%9A%8F%E7%AC%94/</loc>
+    <loc>//localhost:1313/categories/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2026-04-18T20:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/smxy/</loc>
+    <loc>//localhost:1313/tags/%E5%BF%83%E7%90%86/</loc>
     <lastmod>2026-03-21T20:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/wodediyp/</loc>
+    <loc>//localhost:1313/posts/smxy/</loc>
     <lastmod>2026-03-21T20:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/openclaw/</loc>
-    <lastmod>2026-02-17T14:45:00+08:00</lastmod>
+    <loc>//localhost:1313/posts/woderensxtiao/</loc>
+    <lastmod>2026-03-21T20:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/retrospective/</loc>
-    <lastmod>2026-02-17T14:45:00+08:00</lastmod>
+    <loc>//localhost:1313/posts/wodediyp/</loc>
+    <lastmod>2026-03-21T20:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/tech/</loc>
-    <lastmod>2026-02-17T14:45:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/draft-w/the-vercel-404-retrospective/</loc>
-    <lastmod>2026-02-17T14:45:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/vercel/</loc>
-    <lastmod>2026-02-17T14:45:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/draft-w/hello-singularity/</loc>
-    <lastmod>2026-02-17T13:39:15+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/intro/</loc>
-    <lastmod>2026-02-17T13:39:15+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/physics/</loc>
-    <lastmod>2026-02-17T13:39:15+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/thought/</loc>
-    <lastmod>2026-02-17T13:39:15+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>//localhost:1313/</loc>
     <lastmod>2025-01-01T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>//localhost:1313/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>//localhost:1313/search/</loc>
   </url>
 </urlset>

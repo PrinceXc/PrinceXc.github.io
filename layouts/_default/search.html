@@ -1,0 +1,54 @@
+{{ define "main" }}
+<div class="pb3 ph3 ph4-ns">
+  <h1 class="f2 f1-ns lh-copy mb4">搜索</h1>
+
+  <input
+    type="text"
+    id="search-input"
+    placeholder="输入关键词搜索..."
+    class="w-100 pa2 mb4 f5 br2 ba b--black-20"
+  >
+
+  <div id="results" class="lh-copy"></div>
+</div>
+
+<script>
+// 纯原生 JS 搜索，不依赖任何库！
+(async function() {
+  const input = document.getElementById('search-input');
+  const results = document.getElementById('results');
+  
+  // 读取文章索引
+  const res = await fetch('/index.json');
+  const posts = await res.json();
+
+  // 搜索函数
+  function search(keyword) {
+    if (!keyword) return [];
+    keyword = keyword.toLowerCase();
+    return posts.filter(p => 
+      (p.title?.toLowerCase().includes(keyword)) || 
+      (p.content?.toLowerCase().includes(keyword))
+    );
+  }
+
+  // 监听输入
+  input.addEventListener('input', function() {
+    const keyword = this.value.trim();
+    const list = search(keyword);
+
+    if (list.length === 0) {
+      results.innerHTML = keyword ? '<p>未找到结果</p>' : '';
+      return;
+    }
+
+    results.innerHTML = list.map(item => `
+      <div class="mb3">
+        <a href="${item.permalink}" class="f5 blue link">${item.title}</a>
+        <p class="f6 gray">${item.summary || ''}</p>
+      </div>
+    `).join('');
+  });
+})();
+</script>
+{{ end }}
