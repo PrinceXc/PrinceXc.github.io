@@ -2,31 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 云途码志</title>
-    <link>//localhost:1313/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on 云途码志</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 18 Apr 2026 20:00:00 +0800</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Nov 2026 14:12:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>愿景</title>
+      <link>http://localhost:1313/tags/%E6%84%BF%E6%99%AF/</link>
+      <pubDate>Thu, 05 Nov 2026 14:12:00 +0800</pubDate>
+      <guid>http://localhost:1313/tags/%E6%84%BF%E6%99%AF/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>随笔</title>
+      <link>http://localhost:1313/tags/%E9%9A%8F%E7%AC%94/</link>
+      <pubDate>Thu, 05 Nov 2026 14:12:00 +0800</pubDate>
+      <guid>http://localhost:1313/tags/%E9%9A%8F%E7%AC%94/</guid>
+      <description></description>
+    </item>
     <item>
       <title>技术</title>
-      <link>//localhost:1313/tags/%E6%8A%80%E6%9C%AF/</link>
+      <link>http://localhost:1313/tags/%E6%8A%80%E6%9C%AF/</link>
       <pubDate>Sat, 18 Apr 2026 20:00:00 +0800</pubDate>
-      <guid>//localhost:1313/tags/%E6%8A%80%E6%9C%AF/</guid>
+      <guid>http://localhost:1313/tags/%E6%8A%80%E6%9C%AF/</guid>
       <description></description>
     </item>
     <item>
       <title>日常</title>
-      <link>//localhost:1313/tags/%E6%97%A5%E5%B8%B8/</link>
+      <link>http://localhost:1313/tags/%E6%97%A5%E5%B8%B8/</link>
       <pubDate>Sat, 18 Apr 2026 20:00:00 +0800</pubDate>
-      <guid>//localhost:1313/tags/%E6%97%A5%E5%B8%B8/</guid>
+      <guid>http://localhost:1313/tags/%E6%97%A5%E5%B8%B8/</guid>
       <description></description>
     </item>
     <item>
       <title>心理</title>
-      <link>//localhost:1313/tags/%E5%BF%83%E7%90%86/</link>
+      <link>http://localhost:1313/tags/%E5%BF%83%E7%90%86/</link>
       <pubDate>Sat, 21 Mar 2026 20:00:00 +0800</pubDate>
-      <guid>//localhost:1313/tags/%E5%BF%83%E7%90%86/</guid>
+      <guid>http://localhost:1313/tags/%E5%BF%83%E7%90%86/</guid>
       <description></description>
     </item>
   </channel>

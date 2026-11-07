@@ -5,20 +5,14 @@ author = "PrinceXc"
 description = "以码为途，记录成长"
 theme = "ananke"
 
-# 首页文章摘要、简约布局
 summaryLength = 30
-# 默认暗色/浅色跟随系统
-defaultTheme = "auto"
-# 开启简洁文章排版
-enableCodeCopy = true
+
 [params]
     author = "PrinceXc"
     description = "以码为途，记录成长"
-    theme_style = "light"
-    env = "production"
     title = "云途码志"
     defaultTheme = "dark"
-    disableThemeToggle = true
+    disableThemeToggle = false
     DateFormat = "2006/01/02 15:04"
     ShowReadingTime = true
     ShowShareButtons = false
@@ -32,12 +26,12 @@ enableCodeCopy = true
 [menu]
     [[menu.main]]
         identifier = "posts"
-        name = "ARTICLES"
+        name = "文章"
         url = "/posts/"
         weight = 10
     [[menu.main]]
         identifier = "search"
-        name = "SEARCH"
+        name = "搜索"
         url = "/search/"
         weight = 20
 
@@ -45,6 +39,6 @@ enableCodeCopy = true
     home = ["HTML", "RSS", "JSON"]
 
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
