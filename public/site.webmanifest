@@ -1,7 +1,7 @@
 {
     "name": "云途码志",
     "short_name": "云途码志",
-    "start_url": "http://localhost:1313/",
+    "start_url": "https://princexc.github.io/",
     "theme_color": "#434648",
     "background_color": "#131418",
     "display": "standalone",

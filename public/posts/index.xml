@@ -1,96 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>文章 on 云途码志</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in 文章 on 云途码志</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
-    <lastBuildDate>Thu, 05 Nov 2026 14:12:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>我的愿景：想要的生活，和想成为的自己</title>
-      <link>http://localhost:1313/posts/wodeyuanjin/</link>
-      <pubDate>Thu, 05 Nov 2026 14:12:00 +0800</pubDate>
-      
-      <guid>http://localhost:1313/posts/wodeyuanjin/</guid>
-      
-      <description>&lt;h1 id=&#34;我的愿景&#34;&gt;我的愿景&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>文章 on 云途码志</title><link>https://princexc.github.io/posts/</link><description>Recent content in 文章 on 云途码志</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 05 Nov 2026 14:12:00 +0800</lastBuildDate><atom:link href="https://princexc.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>我的愿景：想要的生活，和想成为的自己</title><link>https://princexc.github.io/posts/wodeyuanjin/</link><pubDate>Thu, 05 Nov 2026 14:12:00 +0800</pubDate><guid>https://princexc.github.io/posts/wodeyuanjin/</guid><description>&lt;h1 id="我的愿景"&gt;我的愿景&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;写下来不是为了立 flag，是为了给自己画一张地图，后面我按图进行对应的执行。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;这几年吃的苦，说白了就两类：一是系统不好用——界面难看、客户用着别扭，还得自己写页面设计文件去解释&amp;quot;应该长什么样&amp;quot;；二是流程混乱——得重新画流程图、数据流向图，把业务自己啃一遍。再加上偶尔被抽调去干苦力。&lt;/p&gt;
-&lt;p&gt;这些我都认，也都记着。记着不是为了抱怨，是为了有一天能站着说话。&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>我的第一篇博客文章</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Sat, 18 Apr 2026 20:00:00 +0800</pubDate>
-      
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      
-      <description>&lt;h1 id=&#34;欢迎来到我的博客云码觅梦&#34;&gt;欢迎来到我的博客，云码觅梦！&lt;/h1&gt;
-&lt;p&gt;终于把 Hugo + ananke【主题】 博客搭起来啦 🎉&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>高效能人士的七个习惯</title>
-      <link>http://localhost:1313/posts/wodediyp/</link>
-      <pubDate>Sat, 21 Mar 2026 20:00:00 +0800</pubDate>
-      
-      <guid>http://localhost:1313/posts/wodediyp/</guid>
-      
-      <description>&lt;h1 id=&#34;对高效能人士的七个习惯的感悟&#34;&gt;对《高效能人士的七个习惯》的感悟&lt;/h1&gt;
-&lt;h2 id=&#34;一思维定式的转变是核心&#34;&gt;一、思维定式的转变是核心&lt;/h2&gt;
+&lt;p&gt;这些我都认，也都记着。记着不是为了抱怨，是为了有一天能站着说话。&lt;/p&gt;</description></item><item><title>我的第一篇博客文章</title><link>https://princexc.github.io/posts/my-first-post/</link><pubDate>Sat, 18 Apr 2026 20:00:00 +0800</pubDate><guid>https://princexc.github.io/posts/my-first-post/</guid><description>&lt;h1 id="欢迎来到我的博客云码觅梦"&gt;欢迎来到我的博客，云码觅梦！&lt;/h1&gt;
+&lt;p&gt;终于把 Hugo + ananke【主题】 博客搭起来啦 🎉&lt;/p&gt;</description></item><item><title>高效能人士的七个习惯</title><link>https://princexc.github.io/posts/wodediyp/</link><pubDate>Sat, 21 Mar 2026 20:00:00 +0800</pubDate><guid>https://princexc.github.io/posts/wodediyp/</guid><description>&lt;h1 id="对高效能人士的七个习惯的感悟"&gt;对《高效能人士的七个习惯》的感悟&lt;/h1&gt;
+&lt;h2 id="一思维定式的转变是核心"&gt;一、思维定式的转变是核心&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;“我们看到的世界，不是它的本来面目，而是我们眼中的世界。”&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;读这本书最大的收获，不是学到了七个具体的“技巧”，而是明白了 &lt;strong&gt;“品格”远比“技巧”重要&lt;/strong&gt;。我们往往急于寻找速成的方法论，却忽略了内在原则的建立。七个习惯的本质，是从“依赖”到“独立”再到“互赖”的渐进成熟过程。&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>我的个人使命宣言</title>
-      <link>http://localhost:1313/posts/smxy/</link>
-      <pubDate>Sat, 21 Mar 2026 20:00:00 +0800</pubDate>
-      
-      <guid>http://localhost:1313/posts/smxy/</guid>
-      
-      <description>&lt;h1 id=&#34;我的个人使命宣言&#34;&gt;我的个人使命宣言&lt;/h1&gt;
-&lt;h2 id=&#34;一我的身份标签&#34;&gt;一、我的身份标签&lt;/h2&gt;
+&lt;p&gt;读这本书最大的收获，不是学到了七个具体的“技巧”，而是明白了 &lt;strong&gt;“品格”远比“技巧”重要&lt;/strong&gt;。我们往往急于寻找速成的方法论，却忽略了内在原则的建立。七个习惯的本质，是从“依赖”到“独立”再到“互赖”的渐进成熟过程。&lt;/p&gt;</description></item><item><title>我的个人使命宣言</title><link>https://princexc.github.io/posts/smxy/</link><pubDate>Sat, 21 Mar 2026 20:00:00 +0800</pubDate><guid>https://princexc.github.io/posts/smxy/</guid><description>&lt;h1 id="我的个人使命宣言"&gt;我的个人使命宣言&lt;/h1&gt;
+&lt;h2 id="一我的身份标签"&gt;一、我的身份标签&lt;/h2&gt;
 &lt;p&gt;1.我是一个&lt;strong&gt;正在积累专业能力&lt;/strong&gt;的项目经理
 2.我是一个&lt;strong&gt;有七情六欲&lt;/strong&gt;的普通人&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;当前阶段的核心定位&lt;/strong&gt;：我不是在追求完美，而是在建立系统。&lt;/p&gt;
-&lt;/blockquote&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>现实的一些感悟，龙场悟道的开始</title>
-      <link>http://localhost:1313/posts/woderensxtiao/</link>
-      <pubDate>Sat, 21 Mar 2026 20:00:00 +0800</pubDate>
-      
-      <guid>http://localhost:1313/posts/woderensxtiao/</guid>
-      
-      <description>&lt;h1 id=&#34;对实验室数据治理项目-方案编制的一些感悟&#34;&gt;对《实验室数据治理项目-方案编制》的一些感悟&lt;/h1&gt;
-&lt;h2 id=&#34;一做事需要积极主动&#34;&gt;一、做事，需要积极主动&lt;/h2&gt;
+&lt;/blockquote&gt;</description></item><item><title>现实的一些感悟，龙场悟道的开始</title><link>https://princexc.github.io/posts/woderensxtiao/</link><pubDate>Sat, 21 Mar 2026 20:00:00 +0800</pubDate><guid>https://princexc.github.io/posts/woderensxtiao/</guid><description>&lt;h1 id="对实验室数据治理项目-方案编制的一些感悟"&gt;对《实验室数据治理项目-方案编制》的一些感悟&lt;/h1&gt;
+&lt;h2 id="一做事需要积极主动"&gt;一、做事，需要积极主动&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;从去年9月开始，入职到新的公司，感觉更多的事情需要自己处理，我自己的新身份也需要逐渐适应，假设不是为了我自己，为了家庭、工作、生活、有时候也得多想想&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;最近一段时间，生活、工作有点颓废，早上起不来、晚上不想睡，统计了一下，早上起床时间90%都在8点之后，后续需要逐步调整到早上7点。&lt;/p&gt;
-&lt;h2 id=&#34;二立志需要多考虑一下未来&#34;&gt;二、立志，需要多考虑一下未来&lt;/h2&gt;
-&lt;h3 id=&#34;1-立志--目前来公司半年多了9月到5月公司现状也了解不少是时候想想自己最后要成为项目主管级别的人物&#34;&gt;1. 立志 —— 目前来公司半年多了，9月到5月，公司现状也了解不少，是时候想想自己最后要成为项目主管级别的人物&lt;/h3&gt;
+&lt;h2 id="二立志需要多考虑一下未来"&gt;二、立志，需要多考虑一下未来&lt;/h2&gt;
+&lt;h3 id="1-立志--目前来公司半年多了9月到5月公司现状也了解不少是时候想想自己最后要成为项目主管级别的人物"&gt;1. 立志 —— 目前来公司半年多了，9月到5月，公司现状也了解不少，是时候想想自己最后要成为项目主管级别的人物&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;静心&lt;/strong&gt;：在“刺激”与“回应”之间，人拥有选择的自由，那我的选择就是静下心了，多想想办法，自己多承担一点东西。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;耐心&lt;/strong&gt;：不再说“我做不到”、“都怪他”，而是问自己“我能做什么？”、“我可以选择什么样的回应？”。耐心去逐步完善，构建自己的一套系统，不辜负“贵人”的相助。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;金句&lt;/strong&gt;：爱是一个动词，不是一种感受。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;具体事务，那就每天按时发送当天的日志，及时调整自己的工作状态。&lt;/p&gt;</description>
-      
-    </item>
-    
-  </channel>
-</rss>
+&lt;p&gt;具体事务，那就每天按时发送当天的日志，及时调整自己的工作状态。&lt;/p&gt;</description></item></channel></rss>
