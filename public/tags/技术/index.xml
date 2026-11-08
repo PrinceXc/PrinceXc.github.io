@@ -1,33 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>技术 on 云途码志</title>
-    <link>http://localhost:1313/tags/%E6%8A%80%E6%9C%AF/</link>
-    <description>Recent content in 技术 on 云途码志</description>
-    <generator>Hugo</generator>
-    <language>zh-CN</language>
-    <lastBuildDate>Sat, 18 Apr 2026 20:00:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>我的第一篇博客文章</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Sat, 18 Apr 2026 20:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;h1 id=&#34;欢迎来到我的博客云码觅梦&#34;&gt;欢迎来到我的博客，云码觅梦！&lt;/h1&gt;&#xA;&lt;p&gt;终于把 Hugo + ananke【主题】 博客搭起来啦 🎉&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>我的个人使命宣言</title>
-      <link>http://localhost:1313/posts/smxy/</link>
-      <pubDate>Sat, 21 Mar 2026 20:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/smxy/</guid>
-      <description>&lt;h1 id=&#34;我的个人使命宣言&#34;&gt;我的个人使命宣言&lt;/h1&gt;&#xA;&lt;h2 id=&#34;一我的身份标签&#34;&gt;一、我的身份标签&lt;/h2&gt;&#xA;&lt;p&gt;1.我是一个&lt;strong&gt;正在积累专业能力&lt;/strong&gt;的项目经理&#xA;2.我是一个&lt;strong&gt;有七情六欲&lt;/strong&gt;的普通人&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;当前阶段的核心定位&lt;/strong&gt;：我不是在追求完美，而是在建立系统。&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
-    </item>
-    <item>
-      <title>高效能人士的七个习惯</title>
-      <link>http://localhost:1313/posts/wodediyp/</link>
-      <pubDate>Sat, 21 Mar 2026 20:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/wodediyp/</guid>
-      <description>&lt;h1 id=&#34;对高效能人士的七个习惯的感悟&#34;&gt;对《高效能人士的七个习惯》的感悟&lt;/h1&gt;&#xA;&lt;h2 id=&#34;一思维定式的转变是核心&#34;&gt;一、思维定式的转变是核心&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;“我们看到的世界，不是它的本来面目，而是我们眼中的世界。”&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;读这本书最大的收获，不是学到了七个具体的“技巧”，而是明白了 &lt;strong&gt;“品格”远比“技巧”重要&lt;/strong&gt;。我们往往急于寻找速成的方法论，却忽略了内在原则的建立。七个习惯的本质，是从“依赖”到“独立”再到“互赖”的渐进成熟过程。&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>技术 on 云途码志</title><link>https://princexc.github.io/tags/%E6%8A%80%E6%9C%AF/</link><description>Recent content in 技术 on 云途码志</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 18 Apr 2026 20:00:00 +0800</lastBuildDate><atom:link href="https://princexc.github.io/tags/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml"/><item><title>我的第一篇博客文章</title><link>https://princexc.github.io/posts/my-first-post/</link><pubDate>Sat, 18 Apr 2026 20:00:00 +0800</pubDate><guid>https://princexc.github.io/posts/my-first-post/</guid><description>&lt;h1 id="欢迎来到我的博客云码觅梦"&gt;欢迎来到我的博客，云码觅梦！&lt;/h1&gt;
+&lt;p&gt;终于把 Hugo + ananke【主题】 博客搭起来啦 🎉&lt;/p&gt;</description></item><item><title>高效能人士的七个习惯</title><link>https://princexc.github.io/posts/wodediyp/</link><pubDate>Sat, 21 Mar 2026 20:00:00 +0800</pubDate><guid>https://princexc.github.io/posts/wodediyp/</guid><description>&lt;h1 id="对高效能人士的七个习惯的感悟"&gt;对《高效能人士的七个习惯》的感悟&lt;/h1&gt;
+&lt;h2 id="一思维定式的转变是核心"&gt;一、思维定式的转变是核心&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;“我们看到的世界，不是它的本来面目，而是我们眼中的世界。”&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;读这本书最大的收获，不是学到了七个具体的“技巧”，而是明白了 &lt;strong&gt;“品格”远比“技巧”重要&lt;/strong&gt;。我们往往急于寻找速成的方法论，却忽略了内在原则的建立。七个习惯的本质，是从“依赖”到“独立”再到“互赖”的渐进成熟过程。&lt;/p&gt;</description></item><item><title>我的个人使命宣言</title><link>https://princexc.github.io/posts/smxy/</link><pubDate>Sat, 21 Mar 2026 20:00:00 +0800</pubDate><guid>https://princexc.github.io/posts/smxy/</guid><description>&lt;h1 id="我的个人使命宣言"&gt;我的个人使命宣言&lt;/h1&gt;
+&lt;h2 id="一我的身份标签"&gt;一、我的身份标签&lt;/h2&gt;
+&lt;p&gt;1.我是一个&lt;strong&gt;正在积累专业能力&lt;/strong&gt;的项目经理
+2.我是一个&lt;strong&gt;有七情六欲&lt;/strong&gt;的普通人&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;当前阶段的核心定位&lt;/strong&gt;：我不是在追求完美，而是在建立系统。&lt;/p&gt;
+&lt;/blockquote&gt;</description></item></channel></rss>

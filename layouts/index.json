@@ -1,10 +1,10 @@
-{{- $.Scratch.Set "index" slice -}}
+{{- $index := slice -}}
 {{- range .Site.RegularPages -}}
-  {{- $.Scratch.Add "index" (dict
-    "title" .Title
-    "summary" .Summary
-    "content" .Plain
-    "permalink" .Permalink
+  {{- $index = $index | append (dict
+      "title" .Title
+      "permalink" .RelPermalink
+      "summary" (.Summary | plainify | htmlUnescape | chomp)
+      "content" (.Plain | htmlUnescape | chomp)
   ) -}}
 {{- end -}}
-{{- $.Scratch.Get "index" | jsonify -}}
+{{- $index | jsonify -}}

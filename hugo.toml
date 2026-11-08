@@ -1,44 +1,71 @@
 baseURL = "https://princexc.github.io/"
-languageCode = "zh-CN"
 title = "云途码志"
-author = "PrinceXc"
-description = "以码为途，记录成长"
-theme = "ananke"
+theme = "hugo-blog-awesome"
 
+defaultContentLanguage = "zh-cn"
+locale = "zh-CN"
+enableEmoji = true
 summaryLength = 30
 
 [params]
-    author = "PrinceXc"
-    description = "以码为途，记录成长"
-    title = "云途码志"
-    defaultTheme = "dark"
-    disableThemeToggle = false
-    DateFormat = "2006/01/02 15:04"
-    ShowReadingTime = true
-    ShowShareButtons = false
-    ShowPostNavLinks = true
-    ShowBreadCrumbs = true
-    ShowCodeCopyButtons = true
+  sitename = "云途码志"
+  description = "以码为途，记录成长"
+  defaultColor = "dark"          # dark / light / auto
+  mainSections = ["posts"]
+  toc = true                     # 文章页显示目录
+  tocOpen = false                # 目录默认收起
+  goToTop = true                 # 回到顶部按钮
+  dateFormat = "2006/01/02"      # Go 时间格式，对应 2026/04/18
+  rssFeedDescription = "summary"
 
-    [params.profileMode]
-        enabled = false
+  [params.author]
+    avatar = "avatar.jpg"        # 放在 assets/ 下，正方形图片；没有该文件则不显示头像
+    intro = "云途码志"
+    name = "PrinceXc"
+    description = "以码为途，记录成长"
+
+  [params.browserconfig]
+    TileColor = "#2d89ef"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/PrinceXc"
+
+  [[params.socialIcons]]
+    name = "Rss"
+    url = "/index.xml"
 
 [menu]
-    [[menu.main]]
-        identifier = "posts"
-        name = "文章"
-        url = "/posts/"
-        weight = 10
-    [[menu.main]]
-        identifier = "search"
-        name = "搜索"
-        url = "/search/"
-        weight = 20
+  [[menu.main]]
+    pageRef = "/"
+    name = "首页"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    pageRef = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 20
+  [[menu.main]]
+    pageRef = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 30
+  [[menu.main]]
+    pageRef = "search"
+    name = "搜索"
+    url = "/search/"
+    weight = 40
 
 [outputs]
-    home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS", "JSON"]   # 保留 JSON 给 /search/ 用
 
 [markup]
-    [markup.goldmark]
-        [markup.goldmark.renderer]
-            unsafe = true
+  [markup.highlight]
+    noClasses = false              # 必须 false，否则代码高亮没有配色
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
