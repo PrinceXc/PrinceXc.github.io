@@ -27,14 +27,24 @@
         return;
     }
 
+    function escapeHtml(s) {
+        return String(s || '').replace(/[&<>"']/g, c => ({
+            '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+        }[c]));
+    }
+
     function render(list, keyword) {
         if (!keyword) { box.innerHTML = ''; return; }
         if (!list.length) { box.innerHTML = '<p>没有找到匹配的内容。</p>'; return; }
         box.innerHTML = list.slice(0, 20).map(p => `
-            <article class="post-item">
-                <h4 class="post-item-title"><a href="${p.permalink}">${p.title}</a></h4>
-                <p style="margin:.35rem 0 0;font-size:.9em;opacity:.75;">${p.summary || ''}</p>
-            </article>`).join('');
+            <div class="search-result" style="text-align:left;padding:.7rem 0;border-bottom:1px solid rgba(128,128,128,.35);">
+                <h4 style="margin:0;font-size:16px;font-weight:500;">
+                    <a href="${escapeHtml(p.permalink)}" style="color:inherit;text-decoration:none;">${escapeHtml(p.title)}</a>
+                </h4>
+                <p style="margin:.3rem 0 0;font-size:.9em;opacity:.75;text-align:left;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;">
+                    ${escapeHtml(p.summary)}
+                </p>
+            </div>`).join('');
     }
 
     input.addEventListener('input', function () {
@@ -45,6 +55,17 @@
             (p.content || '').toLowerCase().includes(kw)
         ), kw);
     });
+
+    // 支持 /search/?q=关键词 直接带词打开
+    const initial = new URLSearchParams(location.search).get('q');
+    if (initial) {
+        input.value = initial;
+        render(posts.filter(p =>
+            (p.title || '').toLowerCase().includes(initial.toLowerCase()) ||
+            (p.content || '').toLowerCase().includes(initial.toLowerCase())
+        ), initial.toLowerCase());
+    }
+    input.focus();
 })();
 </script>
 {{- end -}}
